@@ -189,3 +189,246 @@ input{
     border-radius: 50%;
     margin-right: 5px;
 }
+
+/* Cards part one*/
+/*Hebergements Cards*/
+
+.img__hebergement{
+    width: 100%;    
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 5px;
+    margin-bottom: 0%;    
+    object-fit: cover;
+    object-position: left;
+}
+
+.allcards{
+    display: flex;
+    flex-direction: row;
+}
+
+.hebergement{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: #F2F2F2;
+    border: 3px solid red;
+}
+
+.headerhebergement__title{
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 4%;
+}
+
+.titlepopulaireIcon{
+    margin-top: 3%;
+}
+
+.cardshebergement{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    margin: 2%;
+    
+    border: 3px solid orchid;
+}    
+
+.cardsheb{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    background-color: white;
+    border: 3px solid green;
+}
+
+.hebergementcardIcons{
+    color: #0065FC;
+}
+
+.five{
+    color: #DEEBFF;
+}
+
+.hebergementfooter{
+    font-size: 24px;
+    padding-left: 4%;
+    font-weight: bold;
+    font-size: 18px;     
+   }
+/*partie populaire*/
+
+.popular__img{
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    object-fit: cover;
+    object-position:center;
+}
+.populaire{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: #F2F2F2;
+    border: 3px solid yellow;
+}
+
+.titlepopulaire{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24px;
+    border: 3px solid yellowgreen;
+}
+
+.titlepopulaireOne{
+    font-size: 12px;
+    margin-left: 3%;
+    border: 3px solid hotpink;
+}
+
+.titlepopulaireIcon{
+    padding-top: 10px;
+}
+
+.populairecards{
+    display: flex;
+    flex-direction: column;   
+    border: 3px solid blue;
+}
+
+.popularcard{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin: 10%;
+    background-color: white;
+    border: 3px solid orangered;
+}
+
+/*Popular icons*/
+.popularcardIcons{
+    color: #0065FC;
+}
+
+.four{
+    color: #DEEBFF;
+}
+
+.fivestar{
+    color: #DEEBFF;
+}
+
+/*
+.hebergement{
+    display: grid;
+    width: 85%;
+    margin-left: 3%;
+    padding-right: 1%;
+    padding-left: 1%;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    border: 3PX solid yellow;
+}
+
+.headerhebergement__title{
+    padding-left: 27px;
+    font-size: 24px;
+}
+
+.cardshebergement{    
+    display:grid;
+    width: auto;
+    height: auto;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+    justify-content: center;  
+    border: 3px solid orange;
+}
+
+.cardsheb{
+    display: grid;
+    width: 262px;
+    height: 250px;
+    margin-left: 0%;
+    grid-gap:1%;
+    padding-bottom: 2px;
+    background-color: white;   
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+
+.cardhebergement__content{
+    padding-top: 0%;
+    margin-top: 0%;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border:1px solid green;
+}
+
+i{
+    color: #0065FC;
+ }
+ 
+ .five{
+     color:#DEEBFF;
+ }
+ 
+ .four{
+     color:#DEEBFF;
+ }
+ 
+ .hebergementfooter{
+     font-size: 25px;
+     padding-left: 22px;
+     font-weight: bold;
+     font-size: 18px;     
+    }
+*/
+
+ 
+
+
+
+
+/*PopulaireCards*/
+/*
+.popular__img{
+    width: 180px;
+    height: 130px;
+    object-fit: cover;
+    object-position:center;
+}
+
+.populaire{
+    display: grid;
+}
+
+.populairecards{
+  background-color: #F2F2F2;
+}
+
+.titlepopulaireIcon{
+    margin-top: 5px;
+    padding-top: 30px;
+    border: 3px solid red;
+}
+
+.titlepopulaire{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;    
+    background-color: #F2F2F2;
+}
+
+.popularcard{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: white;
+}
+*/
