@@ -145,6 +145,18 @@ input{
 .filtresgroup{
     display: flex;
     flex-direction: row;
+    align-items: self-start;
+}
+
+.filtresgroup__first{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.filtresgroup__last{
+    display: flex;
+    flex-direction: row;
 }
 
 .filtresIcon {
@@ -194,7 +206,6 @@ input{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-   
 }
 
 /*Hebergements Cards*/
@@ -351,4 +362,141 @@ input{
 
 .fivestar{
     color: #DEEBFF;
+}
+
+
+
+
+
+
+
+/*activites cards*/
+
+.activite{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.titleactivite{
+    font-size: 24px;
+}
+/* Cards activité*/
+
+.cardsactivite{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-between;
+}
+ /*prémière div et en même temps carte activités*/
+.cardsactivite__vieuxport{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+    border-radius: 5%;
+}
+
+
+
+.PremierImgActivity{
+    width: 100%;
+    height:260px;
+    object-fit: cover;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.activite__content{
+    font-size: 9px;
+    height: 10%;
+    padding-left:5%
+}
+*/
+/*Deuxième div activités*/
+
+.cardsactivite__twoo{
+    display: grid;
+    grid-template-columns: column;   
+}
+
+/*Deuxième carte activités*/
+
+.cardsactivite__fort{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+    border-radius: 5%;
+}
+.DeuxiemeImgActivite{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;    
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+/*Troisièeme carte activités*/
+
+.cardsactivite__iles{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+    border-radius: 5%;
+}
+
+.TroisiemeImgActivite{
+    width: 100%;
+    height: 80px;
+    object-fit: cover;    
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+/*Quatrième div et en même temps quartrième carte activités*/
+.cardsactivite__park{    
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+    border-radius: 5%;
+}
+.QuatriemeImgActivite{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+/*sixième div actiivités*/
+.notredame{    
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+    border-radius: 5%;
+    padding-bottom: 5px;
+}
+
+/*Cinquième carte activités*/
+
+.CinquiemeImgActivite{
+    width: 100%;
+    height: 85px;
+    object-fit: cover;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+/*Sixième carte activité*/
+
+.cardsactivite__longchamp{
+    display: flex;
+    flex-direction: column;    
+    width: 100%;
+    margin-top: 10%;
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+    border-radius: 5%;
+}
+
+.SixiemeImgActivite{
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
 }

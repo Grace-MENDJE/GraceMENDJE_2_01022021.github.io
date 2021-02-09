@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/754610bc5b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen" href="phone.css"/>
+    <link rel="stylesheet" media="screen" href="tablet.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> 
     <title>Reservia</title>
 </head>
@@ -21,17 +23,19 @@
             <div class="navigation">
                 <nav>
                     <ul>
-                        <li><a  class="lien__navigation" href="#Myhebergement">Hébergements</a></li>
+                        <li><a  class="lien__navigation" href="#">Hébergements</a></li>
                         <li><a class="lien__navigation" href="#"> Activités</a></li>
                     </ul>
                 </nav>
             </div>  
-            <div class="login"><a  class="login" href="#"> S'inscrire</a></div>
+            <div class="login">
+                <a  class="login" href="#"> S'inscrire</a>
+            </div>
         </header>
 
         <div class="recherche">
             <div class="recherche__texte">
-                <p class="recherche__texte1">votre hébergement pour des vacances de rêve</p>
+                <p class="recherche__texte1">Trouvez votre hébergement pour des vacances de rêve</p>
                 <p class="recherche__texte2"> plein centre ville ou en plein nature</p>
             </div>
             <div class="recherche__champ">
@@ -50,35 +54,42 @@
                 <p class="filtrestitle">Filtres</p>
 
                 <div class="filtresgroup">
-                    <div class="filtres__economique">
-                        <button class="groupefiltresIcon filtres__economiqueIcon">
-                            <i class="filtresIcon fas fa-money-bill-wave"></i>
-                            Economique
-                        </button>
-                       
+                    <div class="filtresgroup__first">
+                        <div class="filtres__economique">
+                            <button class="groupefiltresIcon filtres__economiqueIcon">
+                                <i class="filtresIcon fas fa-money-bill-wave"></i>
+                                Economique
+                            </button>
+                           
+                        </div>
+            
+                        <div class="filtres__familial">
+                            <button class="groupefiltresIcon filtres__familialIcon">
+                                <i class="filtresIcon fas fa-child"></i>
+                                Familial
+                            </button>
+                        </div>
                     </div>
+
+                    <div class="filtresgroup__last">
+                        <div class="filtres__romantique">
+                            <button class="groupefiltresIcon filtres__romantiqueIcon">
+                                <i class="filtresIcon fas fa-heart"></i>
+                                Romantique
+                            </button>                        
+                        </div>
+            
+                        <div class="filtres__animaux">
+                            <button class="groupefiltresIcon filtres__animauxIcon">
+                                <i class="filtresIcon fas fa-dog"></i>
+                                Animaux autorisés
+                            </button>
+                            
+                        </div>
+                    </div>
+                    
         
-                    <div class="filtres__familial">
-                        <button class="groupefiltresIcon filtres__familialIcon">
-                            <i class="filtresIcon fas fa-child"></i>
-                            Familial
-                        </button>
-                    </div>
-        
-                    <div class="filtres__romantique">
-                        <button class="groupefiltresIcon filtres__romantiqueIcon">
-                            <i class="filtresIcon fas fa-heart"></i>
-                            Romantique
-                        </button>                        
-                    </div>
-        
-                    <div class="filtres__animaux">
-                        <button class="groupefiltresIcon filtres__animauxIcon">
-                            <i class="filtresIcon fas fa-dog"></i>
-                            Animaux autorisés
-                        </button>
-                        
-                    </div>
+                    
                 </div>
                 
             </div>
@@ -96,7 +107,8 @@
 
 
         <div class="allcards">
-        <div id="Myhebergement" class="hebergement">
+
+            <div id="Myhebergement" class="hebergement">
 
                 <h1 class="headerhebergement__title">Hébergements à Marseille</h1>
     
@@ -234,6 +246,7 @@
             </div>
             
             
+        
             <div class="populaire">
 
                 <div class="titlepopulaire">
@@ -246,9 +259,8 @@
                     </div>
         
                 </div>
-        
-        
-               <div class="populairecards">      
+
+                <div class="populairecards">      
         
                     <div class="popularcard populairecardsOne">
                         <div class="popularcardImage populairecardsOne--image">
@@ -303,22 +315,106 @@
                         </div>   
                     </div>
             
-                </div>
+                </div>    
+        
+           
         
         
         
             </div>
-        
-    
-               
             
-
-
-
-
+            
+            
         </div>
+    
+        <div class="activite">
+            <h1 class="titleactivite">Activités à Marseille</h1>
+            <div class="cardsactivite">
+                <div class="cardsactivite__vieuxport">
+                    <a href="#">
+                        <figure>
+                            <img class="activite__img PremierImgActivity" 
+                            src="images/activites/imagesRedimensionnées/reno-laithienne-QUgJhdY5Fyk-unsplash (Copy).jpg" 
+                            alt="">
+                        </figure>
+                        <div class="activite__content">
+                            <h3>vieux Port</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="cardsactivite__twoo">
+                    <div class="cardsactivite__fort">
+                        <a href="#">
+                            <figure class="fort">
+                                <img class="activite__img DeuxiemeImgActivite" 
+                                src="images/activites/imagesRedimensionnées/paul-hermann-QFTrLdQIRhI-unsplash (Copy) (3).jpg" 
+                                alt="">
+                            </figure>
+                            <div class="activite__content">
+                                <h3>Fort de Pomègues</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cardsactivite__iles">
+                        <a href="#">
+                            <figure>
+                                <img class="activite__img TroisiemeImgActivite" 
+                                src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" 
+                                alt="">
+                            </figure>
+                            <div class="activite__content">
+                                <h3>Îles du frioul</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cardsactivite__park">
+                    <a href="#">
+                        <figure>
+                            <img class="activite__img QuatriemeImgActivite" 
+                            src="images/activites/imagesRedimensionnées/kilyan-sockalingum-NR8-cBCN3aI-unsplash (Copy).jpg" 
+                            alt="">
+                        </figure>
+                        <div class="activite__content">
+                            <h3>Parc national des calanques</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="cardsactivite__four">
+                    <div class="notredame">
+                        <a href="#">
+                            <figure>
+                                <img class="activite__img CinquiemeImgActivite" 
+                                src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" 
+                                alt="">
+                            </figure>
+                            <div class="activite__content">
+                                <h3>Notre-Dame-de-la-Garde</h3>
+                            </div>  
+                        </a>                 
+                    </div>
+
+                    <div class="cardsactivite__longchamp">
+                        <a href="#">
+                            <figure>
+                                <img class="activite__img SixiemeImgActivite" 
+                                src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" 
+                                alt="">
+                            </figure>
+                            <div class="activite__content">
+                                <h3>Parc Longchamp</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
 
 
+        </div>       
 
 
 
