@@ -13,8 +13,9 @@
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;  
-     
+    justify-content: space-between;      
+    width: 90%;
+    margin-left: 5%;     
 }
 
 figure{
@@ -76,7 +77,9 @@ a:link{
     margin-top: 20px;
 }
 /*la partie: champs de recherche*/
-.recherche{
+.recherche{    
+    width: 90%;
+    margin-left: 5%;
     margin-bottom: 2%;
 }
 
@@ -130,6 +133,8 @@ input{
 .filtres{
     display: flex;
     flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
     margin-top: 2%;    
 }
 
@@ -226,7 +231,8 @@ input{
 .hebergement{
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 50%;
+    margin-left: 5%;
     background-color: #F2F2F2;
     border-radius: 2%;
 }
@@ -299,6 +305,7 @@ input{
     background-color: #F2F2F2;
     border-radius: 2%;
     width: 35%;
+    margin-right: 5%;
     margin-left: 2%;
 }
 
@@ -374,7 +381,9 @@ input{
 
 .activite{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
+    width: 90%;
+    margin-left: 5%;
     margin-top: 5%;
 }
 
@@ -499,4 +508,60 @@ input{
     object-fit: cover;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
+}
+
+
+footer{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    margin-top: 5%;
+    background-color: #f2f2f2;
+}
+
+.footer__apropos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer__hebergement{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer__assistance{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-bottom: 0%;
+}
+
+.footertitle{
+    font-size: 18px;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0%;
+    list-style-type: none;  
+}
+
+footer ul li{
+    padding-bottom: 4%;
+}
+
+.lien__footer{
+    color:black;
+}
+
+.lien__footer:hover{
+    color: #0065FC;
+}
+
+.lien__footer:link{
+    text-decoration: none;    
 }
