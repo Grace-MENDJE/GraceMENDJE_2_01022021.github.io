@@ -1,0 +1,131 @@
+/*activites cards*/
+
+.activite{
+    display: flex;
+    flex-direction: column;  
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.titleactivite{
+    font-size: 24px;
+    font-weight: bold;
+}
+/* Cards activité*/
+
+.cardsactivite{
+    display: grid;
+    grid-template-columns: 21% 21% 21% 21%;
+    justify-content: space-between; 
+}
+
+.activite__content{
+    font-size: 10px;
+    font-weight: bolder;
+    height: 15%;
+    padding-left:5%;
+}
+
+ /*prémière div et en même temps carte activités*/
+.cardsactivite__vieuxport{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+    border-radius: 20px;
+}
+
+.PremierImgActivity{
+    width: 100%;
+    height:275px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom:2%;
+}
+
+/*Deuxième partie*/
+
+.cardsactivite__twoo{
+    display: grid;
+    grid-template-columns: column;   
+}
+
+/*Deuxième div activités*/
+
+.cardsactivite__fort{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+    border-radius: 20px;
+    margin-bottom: 10%;
+}
+.DeuxiemeImgActivite{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/*Troisième div activités*/
+
+.cardsactivite__iles{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+    border-radius: 20px;
+}
+
+.TroisiemeImgActivite{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/*Quatrième div activités*/
+.cardsactivite__park{    
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+    border-radius: 20px;
+}
+.QuatriemeImgActivite{
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/*Cinquieme div activités*/
+.notredame{    
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+    border-radius: 20px;
+    padding-bottom:4%;
+    margin-bottom: 8%;
+}
+
+.CinquiemeImgActivite{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/*Sixième div activité*/
+
+.cardsactivite__longchamp{
+    display: flex;
+    flex-direction: column;    
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+    border-radius: 20px;
+}
+
+.SixiemeImgActivite{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}

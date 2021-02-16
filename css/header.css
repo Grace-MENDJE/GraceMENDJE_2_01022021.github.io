@@ -1,0 +1,60 @@
+/*l'entête de mon site web*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-left: 5%;
+}
+figure{
+    display: flex;
+    margin: 0%;
+}
+
+.image__logo{
+    display: flex;
+    width: 30%;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    width: 50%;
+    
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;         
+}
+
+nav ul li{     
+    padding-left: 15%;     
+}
+
+a{
+    color: black;  
+}
+
+a:hover{
+    color: #0065FC;
+}
+
+a:link{
+    text-decoration: none;    
+}
+
+.lien__navigation:hover{
+    color: #0065FC;
+    border-top:1px solid #0065FC;
+    padding-top: 25px;
+}
+
+.login{
+    color: #0065FC;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+}

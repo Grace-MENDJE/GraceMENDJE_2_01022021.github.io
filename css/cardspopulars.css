@@ -1,0 +1,80 @@
+/*partie populaire*/
+
+.populaire{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 2%;
+    width: 35%;
+    margin-left: 5%;
+}
+
+.titlepopulaire{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 7%;
+    padding-top: 5%;
+    font-size: 24px;
+}
+
+
+.titlepopulaireIcon{
+    margin-top: 2%;
+    margin-right: 16%;
+}
+
+
+.titlepopulaireOne{
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 3%;
+}
+
+.popular__images{
+    width: 110px;
+    height: 120px;
+    margin-top: 4px;
+    margin-left: 5px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    object-fit: cover;
+    object-position:center;
+}
+
+.populairecards{
+    display: flex;
+    flex-direction: column;
+}
+
+.popularcard{
+    display: grid;
+    grid-template-columns: 34% 45%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    background-color: white;
+    width: 75%;
+    border-radius: 15px;   
+}
+
+.popularcardContent{
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    margin-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+/*Popular icons*/
+.popularcardIcons{
+    color: #0065FC;
+    padding-top: 15%;
+}
+
+.four{
+    color: #DEEBFF;
+}
+
+.fivestar{
+    color: #DEEBFF;
+}

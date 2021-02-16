@@ -1,0 +1,58 @@
+
+/*la partie: champs de recherche*/
+.recherche{ 
+    margin-left: 5%; 
+    margin-bottom: 2%;
+}
+
+.recherche__texte1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+
+.recherche__texte2{
+    font-size: 17px;
+    margin-top: 2px;
+}
+
+.recherche__champ{ 
+    width: 359px;
+    border-radius: 7px;  
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;    
+}
+
+.recherche__champIcon{
+    width: 50px;
+    height: 40px;
+    border: none;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background-color: #F2F2F2;
+}
+
+input{
+    border: none;
+    width: 200px;
+    height: 40px;
+    box-shadow: 1px solid gray;  
+}
+
+.recherche__champTexte{    
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    width: 100px;
+    height: 40px;  
+    background-color: #0065FC;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.recherche__champTexte::after{
+    font-family: 'font Awesome 5 free';
+    content: 'Recherche';    
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+}
