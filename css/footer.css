@@ -1,9 +1,8 @@
 footer{
     font-family: 'Raleway', sans-serif;
     display: flex;
-    width: 90%;
+    width: 100%;
     margin-top: 2%;
-    margin-left: 5%;
     margin-bottom:5%;
     background-color: #f2f2f2;
 }
@@ -51,4 +50,58 @@ footer ul li{
 
 .lien__footer:link{
     text-decoration: none;    
+}
+
+@media screen and (max-width: 480px){
+    footer{
+        font-family: 'Raleway', sans-serif;
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        padding-left: 5%;
+        background-color: #f2f2f2;
+    }
+
+    .footer__apropos{
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+    }
+    
+    .footer__hebergement{
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+    }
+    .footer__assistance{
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    footer{
+        font-family: 'Raleway', sans-serif;
+        display: flex;
+        flex-direction: column;
+        background-color: #f2f2f2;
+    }
+
+    .footer__apropos{
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+    }
+    
+    .footer__hebergement{
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+    }
+    .footer__assistance{
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+    }
 }

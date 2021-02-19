@@ -1,12 +1,14 @@
 
 /*la partie: champs de recherche*/
 .recherche{ 
-    margin-left: 5%; 
+    margin-left: 3%; 
+    width: 94%;     
     margin-bottom: 2%;
+    margin-left: 3%;
 }
 
 .recherche__texte1{
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     margin-bottom: 0%;
 }
@@ -17,7 +19,7 @@
 }
 
 .recherche__champ{ 
-    width: 359px;
+    width: 350px;
     border-radius: 7px;  
     border-top: 1px solid #F2F2F2;
     border-bottom: 1px solid #F2F2F2;    
@@ -34,15 +36,19 @@
 
 input{
     border: none;
-    width: 200px;
+    width: 210px;
     height: 40px;
     box-shadow: 1px solid gray;  
+}
+
+input::placeholder {
+    color: black;
 }
 
 .recherche__champTexte{    
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
-    width: 100px;
+    width: 80px;
     height: 40px;  
     background-color: #0065FC;
     color: white;
@@ -55,4 +61,74 @@ input{
     content: 'Recherche';    
     font-family: 'Raleway', sans-serif;
     font-size: 13px;
+}
+
+@media screen and (max-width: 480px){
+    .recherche{ 
+        margin-left: 3%; 
+        width: 80%;     
+        margin-bottom: 2%;
+    }
+    
+
+.recherche__texte1{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+
+.recherche__texte2{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.recherche__champ{ 
+    width: 365px;
+    border-radius: 7px;  
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;    
+}
+
+
+input{
+    width: 58%;
+    border: none;
+    height: 30px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    box-shadow: 1px solid gray;  
+}
+
+input::placeholder {
+    color: black;
+  }
+
+.recherche__champTexte{ 
+    border-radius: 7px;
+    width: 50px;
+    height: 40px;  
+    background-color: #0065FC;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.recherche__champIcon{
+    width: 50px;
+    height: 40px;
+    border: none;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background-color: #F2F2F2;
+}
+
+.recherche__champTexte::after{
+    font-family: 'font Awesome 5 free';
+    content: '\f002';
+}
+}
+
+@media screen and (max-width: 991px){
+    
 }
