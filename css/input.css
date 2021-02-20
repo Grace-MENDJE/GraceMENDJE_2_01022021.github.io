@@ -19,8 +19,8 @@
 }
 
 .recherche__champ{ 
-    width: 350px;
-    border-radius: 7px;  
+    width: 540px;
+    border-radius: 20px;  
     border-top: 1px solid #F2F2F2;
     border-bottom: 1px solid #F2F2F2;    
 }
@@ -36,7 +36,7 @@
 
 input{
     border: none;
-    width: 210px;
+    width: 315px;
     height: 40px;
     box-shadow: 1px solid gray;  
 }
@@ -65,20 +65,20 @@ input::placeholder {
 
 @media screen and (max-width: 480px){
     .recherche{ 
-        margin-left: 3%; 
-        width: 80%;     
+        width: 100%;     
         margin-bottom: 2%;
+        margin-left: 0%;
     }
     
 
 .recherche__texte1{
-    font-size: 22px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 0%;
 }
 
 .recherche__texte2{
-    font-size: 18px;
+    font-size: 25px;
     margin-top: 5px;
 }
 
@@ -105,9 +105,9 @@ input::placeholder {
   }
 
 .recherche__champTexte{ 
-    border-radius: 7px;
-    width: 50px;
-    height: 40px;  
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;  
     background-color: #0065FC;
     color: white;
     border: none;
@@ -115,11 +115,11 @@ input::placeholder {
 }
 
 .recherche__champIcon{
-    width: 50px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border: none;
-    border-top-left-radius: 7px;
-    border-bottom-left-radius: 7px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     background-color: #F2F2F2;
 }
 
