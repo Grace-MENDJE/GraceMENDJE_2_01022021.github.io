@@ -137,6 +137,10 @@
         grid-template-columns: 90%;
         margin-right: 0%;
         margin-left: 10%;
+    }.titleactivite{
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 10%;
     }
 
     .activite__content{
