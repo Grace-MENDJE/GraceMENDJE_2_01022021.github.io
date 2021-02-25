@@ -139,22 +139,18 @@
         grid-template-columns: 90%;
         margin-right: 0%;
         margin-left: 10%;
-    }.titleactivite{
+        margin-bottom: 3%;
+    }
+    
+    .titleactivite{
         font-size: 18px;
         font-weight: bold;
         margin-left: 10%;
     }
 
-    .activite__content{
-        font-size: 10px;
-        font-weight: bolder;
-        height: 20%;
-        padding-left:5%;
-    }
-
     .activite__image{
         width: 100%;
-        height:140px;
+        height: 200px;
         object-fit: cover;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
@@ -164,9 +160,9 @@
     .activite{
         display: flex;
         flex-direction: column;  
-        width: 95%;
+        width: 100%;
+        margin-left: 0%;
         margin-top: 2%;
-        border:1px solid yellowgreen;
     }
 
     .cardsactivite__twoo{
@@ -214,7 +210,7 @@
     }
 
     .activite__content{
-        font-size: 10px;
+        font-size: 15px;
         font-weight: bolder;
         height: 15%;
         padding-left:5%;

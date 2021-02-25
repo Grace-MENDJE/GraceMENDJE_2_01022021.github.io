@@ -35,6 +35,7 @@
     width: 15px;
     background-color: #DEEBFF;    
     border-radius: 50%;    
+
 }
 
 .groupefiltresIcon{
@@ -74,7 +75,6 @@
         margin-top: 2%;
         margin-left: 0%;
         padding-left: 4%; 
-        border: 1px solid fuchsia   
     }
     
     .mainfiltres{
@@ -94,6 +94,16 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    .groupefiltresIcon{
+        padding-right: 49px;
+        height: 75%;
+    }
+
+    .filtresIcon {
+        height: 21px;
+        width: 18px;
     }
 
     .filtrefooter{

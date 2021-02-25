@@ -72,7 +72,7 @@
 @media screen and (max-width: 480px){
     .images__hebergement{
         width: 95%;
-        height: 6.5em;
+        height: 9rem;
         border-top-left-radius: 5%;    
         border-top-right-radius: 5%; 
         object-fit: cover;
@@ -91,10 +91,8 @@
     .hebergement{
         display: flex;
         flex-direction: column;  
-        width: 90%;
-        margin-left: 3%;
+        width: 100%;
         background-color: white;
-        border:1px solid blue;
     }
 
     .hebergement__title{
@@ -107,10 +105,11 @@
     .cardsheb{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 90%;
         background-color: white;
         border-radius: 5%;
         box-shadow: 1px 1px 1px 1px #F2F2F2;
+        margin-bottom: 3%;
     }
 
     .cardhebergement__content{

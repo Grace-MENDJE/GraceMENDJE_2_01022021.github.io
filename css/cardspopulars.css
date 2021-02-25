@@ -96,6 +96,14 @@
         object-fit: cover;
         object-position:center;
     }
+
+    .popularcard{
+        margin-bottom: 3%;
+    }
+
+    .popularcardContent{
+        margin-left: 30%;       
+    }
     
 }
 
