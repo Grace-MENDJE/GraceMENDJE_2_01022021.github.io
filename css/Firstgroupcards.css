@@ -12,6 +12,8 @@
     .firstgroupcards{
         display: flex;
         flex-direction: column-reverse;
+        margin-left: 0%;
+        width: 100%;
     }    
 }
 

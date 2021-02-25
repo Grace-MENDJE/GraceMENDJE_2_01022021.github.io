@@ -13,7 +13,7 @@
 
 .filtrestitle{
     font-weight: bold;
-    margin-right: 30px;
+    margin-right: 70px;
 }
 
 .filtresgroup{
@@ -40,15 +40,13 @@
 .groupefiltresIcon{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    padding-left: 0%; 
-    margin-right: 20px;
+    padding-right: 0%; 
+    margin-right: 50px;
     Margin-top: 5%;
     background-color: white;
-    border: 5px #F2F2F2;
-    border-top: 1px solid #F2F2F2;
-    border-bottom: 1px solid #F2F2F2;
-    border-right: 1px solid #F2F2F2;    
+    border: 1px solid #F2F2F2; 
     border-radius: 50px;
+    padding-right: 15px;
 }
 
 .groupefiltresIcon:hover{
@@ -64,8 +62,6 @@
     padding: 3px;
     padding-left: 9px;
     border-left: 1px solid #F2F2F2;
-    border-bottom: 1px solid #F2F2F2;
-    border-right:1px solid #F2F2F2;
     border-radius: 50%;
     margin-right: 5px;
 }
@@ -74,7 +70,11 @@
     .filtres{
         display: flex;
         flex-direction: column;
-        margin-top: 2%;    
+        width: 96%;
+        margin-top: 2%;
+        margin-left: 0%;
+        padding-left: 4%; 
+        border: 1px solid fuchsia   
     }
     
     .mainfiltres{
@@ -86,17 +86,33 @@
         display: flex;
         flex-direction: column;
     }
+
     .filtresgroup__first{
         display: flex;
     }
     .filtresgroup__last{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .filtrefooter{
         display: grid;
         grid-template-columns: auto auto;
+        font-size: 20px;
+    }
+
+    .filtrefooterIcon{
+    padding-left: 9px;
+    padding-right: 7px;
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    }
+
+    .fa-info{
+        font-size: 15px;
     }
 }
 
