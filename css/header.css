@@ -19,13 +19,12 @@ figure{
 .navigation{
     display: flex;
     flex-direction: column;
-    margin-left:33%;
+    margin-left:39%;
 }
 
 .heb1{
     margin-right: 40px;
 }
-
 
 nav ul{
     display: flex;
