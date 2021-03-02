@@ -13,7 +13,7 @@
 
 .filtrestitle{
     font-weight: bold;
-    margin-right: 70px;
+    margin-right: 40px;
 }
 
 .filtresgroup{
@@ -35,7 +35,7 @@
     width: 15px;
     background-color: #DEEBFF;    
     border-radius: 50%;    
-
+    padding-right: 15px;
 }
 
 .groupefiltresIcon{

@@ -16,22 +16,12 @@ footer{
 .footer__hebergement{
     display: flex;
     flex-direction: column;
-<<<<<<< Updated upstream
-    margin-left: 12.5%;
-=======
     margin-left: 168px;
->>>>>>> Stashed changes
 }
 .footer__assistance{
     display: flex;
     flex-direction: column;
-<<<<<<< Updated upstream
-    margin-left: 223px;
-    margin-bottom: 0%;
-=======
      margin-left: 221px;
-
->>>>>>> Stashed changes
 }
 
 .footertitle{
