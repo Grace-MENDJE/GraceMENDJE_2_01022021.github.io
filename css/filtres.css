@@ -7,6 +7,9 @@
     margin-top: 2%;    
 }
 
+.mainfiltres{
+    display: flex;
+}
 
 .filtrestitle{
     font-weight: bold;
@@ -32,7 +35,7 @@
     width: 15px;
     background-color: #DEEBFF;    
     border-radius: 50%;    
-    padding-right: 60px;
+    padding-right: 15px;
 }
 
 .groupefiltresIcon{
