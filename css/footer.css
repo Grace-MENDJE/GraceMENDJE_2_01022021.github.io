@@ -21,8 +21,6 @@ footer{
 .footer__assistance{
     display: flex;
     flex-direction: column;
-    margin-left: 223px;
-    margin-bottom: 0%;
      margin-left: 221px;
 }
 
@@ -92,7 +90,7 @@ footer ul li{
     .footer__apropos{
         display: flex;
         flex-direction: column;
-        margin-left: 3%;
+        margin-left: 15%;
     }
     
     .footer__hebergement{

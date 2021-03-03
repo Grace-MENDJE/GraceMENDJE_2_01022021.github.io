@@ -13,7 +13,6 @@
 
 .filtrestitle{
     font-weight: bold;
-    font-size: 22px;
     margin-right: 40px;
 }
 
@@ -34,21 +33,20 @@
     color:#0065FC;
     padding: 7px;
     width: 15px;
-    background-color: #DEEBFF;
+    background-color: #DEEBFF;    
     border-radius: 50%;    
-    padding-right: 15px;
+    padding-right: 60px;
 }
 
 .groupefiltresIcon{
     font-family: 'Raleway', sans-serif;
-    font-size: 22px;
     font-weight: bold;
     font-size:19px;
     padding-right: 0%; 
     margin-right: 47px;
     Margin-top: 5%;
     background-color: white;
-    border: 2px solid #F2F2F2; 
+    border: 1px solid #F2F2F2; 
     border-radius: 50px;
     padding-right: 15px;
 }
@@ -60,11 +58,11 @@
 
 .filtrefooterIcon {     
     color: #0065FC;
-    border: 2px solid #F2F2F2;
-    width: 15px;
-    height: 20px;
-    padding: 5px;
-    padding-left: 15px;
+    border-top: 1px solid #F2F2F2;
+    width: 10px;
+    height: 15px;
+    padding: 3px;
+    padding-left: 9px;
     border-left: 1px solid #F2F2F2;
     border-radius: 50%;
     margin-right: 5px;
