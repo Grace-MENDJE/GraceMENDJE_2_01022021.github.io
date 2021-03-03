@@ -92,8 +92,8 @@
     }
 
     .popular__images{
-        width: 150px;
-        height: 160px;
+        width: 130px;
+        height: 140px;
         margin-top: 4px;
         margin-left: 5px;
         border-top-left-radius: 15px;
@@ -104,12 +104,27 @@
 
     .popularcard{
         margin-bottom: 3%;
+        margin-left: 5%;
+        width: 90%;
     }
 
     .popularcardContent{
         margin-left: 30%;       
     }
     
+    .titlepopulaire{
+        margin-left: 4%;
+    }
+
+    .titlepopulaireOne{
+        margin-left: 0%;
+    }
+
+    .titlepopulaireIcon{
+        margin-right: 5%;
+    }
+    
+
 }
 
 @media screen and (max-width: 991px){
