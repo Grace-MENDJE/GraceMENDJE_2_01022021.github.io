@@ -16,31 +16,14 @@ footer{
 .footer__hebergement{
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
-    margin-left: 13.5%;
-=======
-<<<<<<< Updated upstream
-    margin-left: 12.5%;
-=======
     margin-left: 168px;
->>>>>>> Stashed changes
->>>>>>> reagistationdusite
 }
 .footer__assistance{
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
-     margin-left: 223px;
-
-=======
-<<<<<<< Updated upstream
     margin-left: 223px;
     margin-bottom: 0%;
-=======
      margin-left: 221px;
-
->>>>>>> Stashed changes
->>>>>>> reagistationdusite
 }
 
 .footertitle{
