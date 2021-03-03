@@ -90,7 +90,7 @@ footer ul li{
     .footer__apropos{
         display: flex;
         flex-direction: column;
-        margin-left: 3%;
+        margin-left: 15%;
     }
     
     .footer__hebergement{
