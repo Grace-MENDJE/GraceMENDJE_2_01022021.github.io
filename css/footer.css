@@ -35,6 +35,10 @@ footer ul{
     list-style-type: none;  
 }
 
+footer ul li{
+    padding-bottom: 4%;
+}
+
 .lien__footer{
     color:black;
 }
@@ -86,17 +90,17 @@ footer ul{
     .footer__apropos{
         display: flex;
         flex-direction: column;
-        margin-left: 15%;
+        margin-left: 7%;
     }
     
     .footer__hebergement{
         display: flex;
         flex-direction: column;
-        margin-left: 3%;
+        margin-left: 7%;
     }
     .footer__assistance{
         display: flex;
         flex-direction: column;
-        margin-left: 3%;
+        margin-left: 7%;
     }
 }
