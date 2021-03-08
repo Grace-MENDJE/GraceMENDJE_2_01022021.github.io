@@ -79,7 +79,7 @@ footer ul li{
     }
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 375px){
     footer{
         font-family: 'Raleway', sans-serif;
         display: flex;
@@ -90,17 +90,34 @@ footer ul li{
     .footer__apropos{
         display: flex;
         flex-direction: column;
-        margin-left: 7%;
+        margin-left: 2%;
     }
     
     .footer__hebergement{
         display: flex;
         flex-direction: column;
-        margin-left: 7%;
+        margin-left: 2%;
     }
     .footer__assistance{
         display: flex;
         flex-direction: column;
-        margin-left: 7%;
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    .footer__hebergement{
+        margin-left: 3%;
+    }
+
+    .footer__assistance{
+        margin-left: 3%;
     }
 }

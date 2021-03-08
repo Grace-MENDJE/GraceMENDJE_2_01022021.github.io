@@ -8,15 +8,20 @@
     margin-left: 3%;
 }
 
-@media screen and (max-width: 480px){
+/*@media screen and (max-width: 375px){
     .firstgroupcards{
         display: flex;
         flex-direction: column-reverse;
         margin-left: 0%;
         width: 100%;
     }    
-}
-
-/*@media screen and (max-width: 991px){
-    
 }*/
+
+@media screen and (max-width: 768px){
+    .firstgroupcards{
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+        width: 100%;
+    }    
+}

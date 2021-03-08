@@ -69,7 +69,7 @@
     padding-top: 1%;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 375px){
     .images__hebergement{
         width: 95%;
         height: 9rem;
@@ -82,15 +82,15 @@
     }
 
     .cardshebergement{
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;        
-        margin-left: 10%;
+        display:grid;
+        grid-template-columns: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     
     .hebergement{
         display: flex;
-        flex-direction: column;  
+        flex-direction: column; 
         width: 100%;
         background-color: white;
     }
@@ -98,20 +98,21 @@
     .hebergement__title{
         font-size: 17px;
         font-weight: bold;
-        padding-left: 11%;
+        padding-left: 5%;
         margin-top: 0%;
     }
 
     .cardsheb{
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         background-color: white;
         border-radius: 5%;
         box-shadow: 2px 2px 2px 2px #F2F2F2;
         margin-bottom: 5%;
         padding-left: 5px;
         padding-top: 5px;
+        scroll-margin-left: 4%;
     }
 
     .cardhebergement__content{
@@ -123,10 +124,25 @@
         font-size: 15px;  
         padding-left: 4%;
         font-weight: bold; 
-        margin-left: 22px;    
+        margin-left: 22px;  
+        margin-left: 1%;  
     }
 }
 
-@media screen and (max-width: 991px){
+@media screen and (max-width: 768px){
+
+    .hebergement{
+        display: flex;
+        flex-direction: column; 
+        width: 100%;
+    }
+
+    .cardshebergement{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        justify-content: space-between;
+        margin-right: 3%;
+        margin-left: 3%;
+    }
     
 }

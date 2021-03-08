@@ -82,7 +82,7 @@
     color: #DEEBFF;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 375px){
     .populaire{
         display: flex;
         flex-direction: column;
@@ -127,6 +127,23 @@
 
 }
 
-@media screen and (max-width: 991px){
-    
+@media screen and (max-width: 768px){
+    .populaire{
+        display: flex;
+        flex-direction: column;
+        background-color: #F2F2F2;
+        width: 100%;
+    }
+
+    .popularcardContent{
+        width: 182px;
+        font-size: 17px;
+    }
+
+    .popular__images{
+        width: 272px;
+        height: 236px;
+        margin-top: 4px;
+        margin-left: 5px;
+    }
 }
