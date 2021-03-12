@@ -43,9 +43,7 @@ a{
 a:link{
     text-decoration: none;    
 }
-
-
-.lien__navigation:hover{
+header>a:hover{
     color: #0065FC;
     border-top:1px solid #0065FC;
     padding-top: 25px;

@@ -69,8 +69,7 @@
     .heb2{
         display: flex;
     }
-    .lien__navigation:hover{
-        color: #0065FC;
+    header > a:hover{
         border-top: none;
         border-bottom:3px solid #0065FC;
         padding-bottom: 41px;
