@@ -955,7 +955,7 @@ input::placeholder {
     }
 
     .activite__image{
-        width: 332px;
+        width: 100%;
         height: 200px;
         object-fit: cover;
         border-top-left-radius: 20px;
@@ -963,10 +963,7 @@ input::placeholder {
         margin-bottom:2%;        
     }
 
-    .cardsactiviteAll{
-        display: flex;
-    }
-
+    
     .cardsactivite__iles{        
         margin-bottom: 8%;
     }
