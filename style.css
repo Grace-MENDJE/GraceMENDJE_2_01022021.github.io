@@ -44,6 +44,7 @@ figure{
     display: flex;
     flex-direction: column;
     margin-left:39%;
+    width: 20%;
 }
 
 .heb1{
@@ -1040,12 +1041,12 @@ footer{
 .footer__hebergement{
     display: flex;
     flex-direction: column;
-    margin-left: 168px;
+    margin-left: 14%;
 }
 .footer__assistance{
     display: flex;
     flex-direction: column;
-     margin-left: 221px;
+    margin-left: 17.5%;
 }
 
 .footertitle{
