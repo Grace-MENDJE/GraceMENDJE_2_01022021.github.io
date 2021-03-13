@@ -644,10 +644,7 @@ input::placeholder {
     }
 
     .hebergementfooter{
-        font-size: 15px;  
-        padding-left: 4%;
-        font-weight: bold; 
-        margin-left: 22px;  
+        font-size: 15px;    
         margin-left: 1%;  
     }
 }
@@ -968,14 +965,14 @@ input::placeholder {
 @media screen and (max-width: 375px){
     .cardsactivite{
         display: grid;
-        grid-template-columns: 95%;
+        grid-template-columns: 98%;
         margin-right: 0%;
-        margin-left: 5%;
+        margin-left: 2%;
         margin-bottom: 3%;
     }
 
     .titleactivite{
-        margin-left: 5%;
+        margin-left: 2%;
     }
 
     .activite__image{
