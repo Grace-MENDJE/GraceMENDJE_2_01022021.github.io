@@ -831,8 +831,7 @@ input::placeholder {
     
 }
 
-activites cards
-
+/*carte activité*/
 .activite{
     display: flex;
     flex-direction: column;  
