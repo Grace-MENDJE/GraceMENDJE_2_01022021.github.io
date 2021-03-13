@@ -969,14 +969,14 @@ activites cards
 @media screen and (max-width: 375px){
     .cardsactivite{
         display: grid;
-        grid-template-columns: 100%;
+        grid-template-columns: 95%;
         margin-right: 0%;
-        margin-left: 2%;
+        margin-left: 5%;
         margin-bottom: 3%;
     }
 
     .titleactivite{
-        margin-left: 2%;
+        margin-left: 5%;
     }
 
     .activite__image{
