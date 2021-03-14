@@ -967,16 +967,27 @@ input::placeholder {
 }
 
 @media screen and (max-width: 375px){
+
+    .activite{
+        margin-left: 5%;
+    }
     .cardsactivite{
         display: grid;
         grid-template-columns: 98%;
         margin-right: 0%;
+<<<<<<< HEAD
         margin-left: 2%;
+=======
+>>>>>>> mobilecarteactivite
         margin-bottom: 3%;
     }
 
     .titleactivite{
+<<<<<<< HEAD
         margin-left: 2%;
+=======
+        margin-left: 0%;
+>>>>>>> mobilecarteactivite
     }
 
     .activite__image{
