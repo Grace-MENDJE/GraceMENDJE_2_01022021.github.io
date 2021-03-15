@@ -87,8 +87,7 @@ a:link{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 96%;    
-        border-bottom:3px solid #f2f2f2;
+        width: 96%;
         margin-left: 0%;
         padding-left: 4%;
     }
@@ -975,19 +974,11 @@ input::placeholder {
         display: grid;
         grid-template-columns: 98%;
         margin-right: 0%;
-<<<<<<< HEAD
-        margin-left: 2%;
-=======
->>>>>>> mobilecarteactivite
         margin-bottom: 3%;
     }
 
     .titleactivite{
-<<<<<<< HEAD
-        margin-left: 2%;
-=======
         margin-left: 0%;
->>>>>>> mobilecarteactivite
     }
 
     .activite__image{
