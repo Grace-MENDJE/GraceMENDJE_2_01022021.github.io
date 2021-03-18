@@ -391,7 +391,6 @@ input::placeholder {
 
 .filtresgroup__first{
     display: flex;
-    width: 35%;
 }
 
 .filtres__economique{
@@ -410,9 +409,8 @@ input::placeholder {
 .groupefiltresIcon{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    border-radius: 50px;
     font-size: 15px;
-    margin: 5%
+    margin-right: 17%
 }
 
 .touslesfiltres{
@@ -420,7 +418,12 @@ input::placeholder {
     align-items: center;
     border: 2px solid #F2F2F2;
     border-radius: 50px;
-    width: 25%;
+    height: 3rem;
+}
+
+.filtrestexte{
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 
@@ -430,35 +433,58 @@ input::placeholder {
     border-radius: 50px;
 }
 
-.filtrestexte{
-    font-size: 60%;
+.filtres__economique{
+    width: 13rem;
 }
 
 .fa-money-bill-wave{
-    padding-left: 7%;
-    padding-right: 7%;
-    padding-top: 8%;
-    padding-bottom: 8%;
-    font-size: 22px;
-    
+    padding-left: 43%;
+    padding-right: 43%;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    font-size: 22px;    
+}
+
+.filtres__familial{
+    width: 10rem;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .fa-child{
-    padding-left: 17%;
-    padding-right: 17%;
-    padding-top: 12%;
-    padding-bottom: 12%;
+    padding-left: 80%;
+    padding-right: 80%;
+    padding-top: 60%;
+    padding-bottom: 60%;
     font-size: 25px;
+    margin-right: 5%; 
+}
+
+.filtres__romantique{
+    width: 11rem;
+}
+
+.filtres__familialIcon{
+    margin-right: 27%;
 }
 
 .fa-heart{
-    padding: 10%;
-    font-size: 23px;    
+    padding: 55%;
+    font-size: 23px;   
+    margin-right: 5%; 
+}
+
+.filtres__romantiqueIcon{
+    margin-right: 23%;
+}
+
+.filtres__animaux{
+    width: 14rem;
 }
 
 .fa-dog{
     font-size: 24px;
-    padding: 5%;
+    padding: 47%;
 }
 
 .fa-info{
@@ -470,6 +496,62 @@ input::placeholder {
     padding-left: 12px;
     padding-right: 12px;
     margin-right: 1%;
+}
+
+@media screen and (max-width: 480px){
+    .mainfiltres {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filtresgroup {
+        display: flex;
+        width: 87%;
+        flex-direction: column;
+    }
+
+    .filtresgroup__last {
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1099px){
+    .mainfiltres {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filtresgroup__first {
+        display: flex;
+        flex-direction: column;
+        margin-right: 2%;
+    }
+
+    .filtres__economique {
+        width: 11rem;
+    }
+
+    .filtres__familial {
+        width: 9rem;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 5%;
+    }
+
+    .filtresgroup__last {
+        display: flex;
+        width: 60%;
+    }
+
+    .filtres__romantique {
+        width: 14rem;
+    }
+
+    .filtres__animaux {
+        width: 14rem;
+    }
 }
 
 /* Cards hébergements et populaire*/
