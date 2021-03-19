@@ -551,6 +551,10 @@ input::placeholder {
         margin-bottom: 5%;
     }
 
+    .filtres__economique {
+        width: 12rem;
+    }
+
     .filtresgroup__last {
         display: flex;
         width: 40%;
