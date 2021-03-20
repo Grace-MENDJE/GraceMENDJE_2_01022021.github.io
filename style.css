@@ -25,6 +25,8 @@
         margin-top: 2%;
         padding-top: 0%;
         margin-left: 0%;
+        width: 100%;
+        margin-right: 0%;
     } 
 }
 
@@ -97,7 +99,7 @@ a:link{
     font-weight: bold;
     margin-top: 2%;
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 600px){
     header{
         display: flex;
         flex-direction: row;
@@ -546,13 +548,29 @@ input::placeholder {
         flex-direction: column;
     }
 
+    .touslesfiltres{
+        height: 2rem;
+    }
+
     .filtresgroup__first{
         width: 100%;
         margin-bottom: 5%;
     }
 
     .filtres__economique {
-        width: 12rem;
+        width: 10rem;
+    }
+
+    .fa-money-bill-wave{
+        font-size: 15px;    
+    }
+
+    .filtres__familial{
+        width: 8rem;
+    }
+    
+    .fa-child{
+        font-size: 18px;
     }
 
     .filtresgroup__last {
@@ -562,12 +580,24 @@ input::placeholder {
     }
 
     .filtres__romantique{
-        margin-bottom: 14%;
+        margin-bottom: 10%;
+    }
+
+    .fa-heart{
+        font-size: 16px; 
+    }
+
+    .filtres__animaux{
+        width: 12rem;
+    }
+    
+    .fa-dog{
+        font-size: 17px;
     }
 
     .filtrestexte {
-        font-size: 15px;
-    }
+        font-size: 14px;
+    }  
 }
 
 /*Tablette filtres min: 481px et max-width:1100px*/
@@ -1031,8 +1061,9 @@ input::placeholder {
         width: 90%;
     }
 
-    .popularcardContent{
-        margin-left: 7%;       
+    .popularcardContent {
+        margin-left: 4%;
+        font-size: 18px;
     }
     
     .titlepopulaire{
@@ -1335,12 +1366,12 @@ footer{
 .footer__hebergement{
     display: flex;
     flex-direction: column;
-    margin-left: 14%;
+    margin-left: 13%;
 }
 .footer__assistance{
     display: flex;
     flex-direction: column;
-    margin-left: 17.5%;
+    margin-left: 17%;
 }
 
 .footertitle{
