@@ -99,7 +99,7 @@ a:link{
     font-weight: bold;
     margin-top: 2%;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 480px){
     header{
         display: flex;
         flex-direction: row;
@@ -310,13 +310,13 @@ input::placeholder {
     }
 
     .recherche__texte1{
-        font-size: 22px;
+        font-size: 2rem;
         font-weight: bold;
         margin-bottom: 0%;
     }
     
     .recherche__texte2{
-        font-size: 18px;
+        font-size: 21px;
         margin-top: 5px;
     }
     
@@ -570,7 +570,7 @@ input::placeholder {
     }
     
     .fa-child{
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .filtresgroup__last {
@@ -899,7 +899,7 @@ input::placeholder {
         margin-bottom: 5%;
         padding-left: 5px;
         padding-top: 5px;
-        scroll-margin-left: 4%;
+        margin-left: 4%;
     }
 
     .cardhebergement__content{
@@ -1062,8 +1062,8 @@ input::placeholder {
     }
 
     .popularcardContent {
-        margin-left: 8%;
-        font-size: 13px;
+        margin-left: 4%;
+        font-size: 18px;
     }
     
     .titlepopulaire{
@@ -1198,7 +1198,6 @@ input::placeholder {
 
 .cardsactivite__twoo{
     display: grid;
-    grid-template-columns: column;
 }
 
 /*Deuxième div activités*/
