@@ -301,7 +301,63 @@ input::placeholder {
 }
 
 /*Input mobile*/
-@media screen and (max-width: 480px){
+@media screen and (max-width: 375px){
+    .recherche{ 
+        width: 96%;     
+        margin-bottom: 2%;
+        margin-left: 0%;
+        padding-left: 4%;
+    }
+
+    .recherche__texte1{
+        font-size: 22px;
+    }
+
+    .recherche__texte2{
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    input{
+        width: 70%;
+        border: none;
+        height: 50px;
+        font-size: 15px;
+        color: black;
+        font-weight: bold;    
+        border-top: 2px solid #f2f2f2;
+        border-bottom: 2px solid #F2F2F2;
+    }
+
+    input::placeholder {
+        color: black;
+      }
+    
+    .recherche__champTexte{ 
+        border-radius: 17px;
+        width: 50px;
+        height: 50px;  
+        background-color: #0065FC;
+        color: white;
+        border: none;
+        font-weight: bold;
+        margin-left: -15px;
+    }
+    
+    .recherche__champIcon{
+        width: 50px;
+        height: 50px;
+        border: none;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        background-color: #F2F2F2;
+    }
+    .recherche__champTexte::after{
+        font-family: 'font Awesome 5 free';
+        content: '\f002';
+    }
+}
+@media screen and (min-width: 376px) and (max-width: 480px){
     .recherche{ 
         width: 96%;     
         margin-bottom: 2%;
@@ -536,7 +592,45 @@ input::placeholder {
 }
 
 /*Mobile filtres max-width:480px*/
-@media screen and (max-width: 480px){
+@media screen and (max-width: 375px) {
+    .mainfiltres {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filtresgroup {
+        display: flex;
+        width: 91%;
+        flex-direction: column;
+    }
+    
+    .touslesfiltres{
+        height: 3rem;
+    }
+
+    .filtresgroup__first{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .filtresgroup__last {
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+    }
+
+    .filtres__economique {
+        margin-right: 0%;
+        width: 14rem;
+    }
+    .filtres__romantique {
+        width: 11rem;
+        margin-right: 8%;
+        margin-bottom: 15%;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 480px){
     .mainfiltres {
         display: flex;
         flex-direction: column;
@@ -855,16 +949,48 @@ input::placeholder {
     padding-left: 3%;
     font-weight: bold; 
 }
+@media screen and (max-width:375px){
+    .hebergement{
+        display: flex;
+        flex-direction: column; 
+        width: 100%;
+        background-color: white;
+    }
 
-@media screen and (max-width: 480px){
+    .cardshebergement{
+        display:grid;
+        grid-template-columns: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .cardsheb {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 5%;
+        box-shadow: 2px 2px 2px 2px #F2F2F2;
+        margin-bottom: 5%;
+        padding-left: 5px;
+        padding-top: 5px;
+        margin-left: 0%;
+        height: 14rem;
+    } 
+
+    .cardhebergement__content {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width: 480px){
     .images__hebergement{
-        width: 95%;
+        width: 96%;
         height: 9rem;
         border-top-left-radius: 5%;    
         border-top-right-radius: 5%; 
         object-fit: cover;
         object-position: left;
-        margin-left: 5px;
+        margin-left: 2%;
         margin-top: 2%;    
     }
 
@@ -897,9 +1023,7 @@ input::placeholder {
         border-radius: 5%;
         box-shadow: 2px 2px 2px 2px #F2F2F2;
         margin-bottom: 5%;
-        padding-left: 5px;
         padding-top: 5px;
-        margin-left: 4%;
     }
 
     .cardhebergement__content{
@@ -908,8 +1032,8 @@ input::placeholder {
     }
 
     .hebergementfooter{
-        font-size: 15px;    
-        margin-left: 1%;  
+        font-size: 20px;    
+        margin-left: 2%;  
     }
 }
 
@@ -991,8 +1115,8 @@ input::placeholder {
 .popular__images{
     width: 100%;
     height: 94%;
-    margin-top: 4px;
-    margin-left: 5px;
+    margin-top: 3%;
+    margin-left: 3%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     object-fit: cover;
@@ -1046,7 +1170,27 @@ input::placeholder {
 }
 
 /*populaire mobile*/
-@media screen and (max-width: 480px){
+@media screen and (max-width:375px){
+    .populaire{
+        display: flex;
+        flex-direction: column;
+        background-color: #F2F2F2;
+        width: 100%;
+        border-radius: 0%;
+    } 
+
+    .popularcard {
+        margin-bottom: 3%;
+        margin-left: 5%;
+        width: 90%;
+        height: 9rem;
+    }
+
+    .popularcardContent {
+        font-size: 12px;
+    }
+}
+@media screen and (min-width:376px) and (max-width: 480px){
     .populaire{
         display: flex;
         flex-direction: column;
@@ -1071,7 +1215,7 @@ input::placeholder {
     }
 
     .titlepopulaireOne{
-        margin-left: 0%;
+        margin-left: 1%;
     }
 
     .titlepopulaireIcon{
@@ -1282,14 +1426,51 @@ input::placeholder {
     border-top-right-radius: 20px;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width:375px){
+    .activite__image {
+        width: 100%;
+        height: 10rem;
+        object-fit: cover;
+        margin-bottom: 2%;
+    }
+
+    .cardsactivite{
+        display: grid;
+        grid-template-columns: 98%;
+        margin-right: 0%;
+        margin-bottom: 3%;
+    }
+
+    .activite__content {
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    .cardsactivite__vieuxport {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+
+    .cardsactivite__iles {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+
+    .cardsactivite__park {
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width: 480px){
 
     .activite{
         margin-left: 5%;
     }
     .cardsactivite{
         display: grid;
-        grid-template-columns: 98%;
+        grid-template-columns: 96%;
         margin-right: 0%;
         margin-bottom: 3%;
     }
@@ -1318,6 +1499,14 @@ input::placeholder {
 
     .cardsactivite__park{
         margin-bottom: 8%;         
+    }
+
+    .activite__content {
+        font-size: 15px;
+    }
+
+    .notredame {
+        padding-bottom: 1%;
     }
   
 }
