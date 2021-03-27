@@ -638,12 +638,12 @@ input::placeholder {
 
     .filtresgroup {
         display: flex;
-        width: 87%;
+        width: 100%;
         flex-direction: column;
     }
 
     .touslesfiltres{
-        height: 2rem;
+        height: 3rem;
     }
 
     .filtresgroup__first{
@@ -652,19 +652,20 @@ input::placeholder {
     }
 
     .filtres__economique {
-        width: 10rem;
+        width: 13rem;
+        margin-right: 0%;
     }
 
     .fa-money-bill-wave{
-        font-size: 15px;    
+        font-size: 22px;    
     }
 
     .filtres__familial{
-        width: 8rem;
+        width: 10rem;
     }
     
     .fa-child{
-        font-size: 18px;
+        font-size: 25px;
     }
 
     .filtresgroup__last {
@@ -675,22 +676,23 @@ input::placeholder {
 
     .filtres__romantique{
         margin-bottom: 10%;
+        width: 14rem;
     }
 
     .fa-heart{
-        font-size: 16px; 
+        font-size: 23px;         
     }
 
     .filtres__animaux{
-        width: 12rem;
+        width: 18rem;
     }
     
     .fa-dog{
-        font-size: 17px;
+        font-size: 23px;
     }
 
     .filtrestexte {
-        font-size: 14px;
+        font-size: 23px;
     }  
 }
 
@@ -1090,6 +1092,9 @@ input::placeholder {
     border-radius: 2%;
     width: 30%;
 }
+.carte-populaire{
+    display: flex;
+}
 
 .titlepopulaire{
     display: flex;
@@ -1219,6 +1224,7 @@ input::placeholder {
     }
 
     .titlepopulaireIcon{
+        font-size: 15px;
         margin-right: 5%;
     }  
 
