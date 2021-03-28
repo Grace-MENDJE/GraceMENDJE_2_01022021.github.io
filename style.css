@@ -907,7 +907,7 @@ input::placeholder {
 .hebergement__title{
     font-size: 22px;
     font-weight: bold;
-    padding-top: 1%;
+    padding-top: 2%;
     padding-left: 3%;
     margin-top: 0%;
 }
@@ -947,9 +947,10 @@ input::placeholder {
 }
 
 .hebergementfooter{
-    font-size: 18px;     
+    font-size: 12px;     
     padding-left: 3%;
     font-weight: bold; 
+    margin-bottom: 3%;
 }
 @media screen and (max-width:375px){
     .hebergement{
@@ -1106,13 +1107,13 @@ input::placeholder {
 
 
 .titlepopulaireIcon{
-    margin-top: 10px;
+    margin-top: 18px;
     margin-right: 10%;
 }
 
 
 .titlepopulaireOne{
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold;
     margin-left: 3%;
 }
@@ -1309,7 +1310,7 @@ input::placeholder {
 }
 
 .titleactivite{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
 }
 /* Cards activité*/
