@@ -238,10 +238,14 @@ a:link{
     margin-left: 3%;
 }
 
+.recherche__texte {
+    margin-bottom: 24px;
+}
+
 .recherche__texte1{
     font-size: 22px;
     font-weight: bold;
-    margin-bottom: 0%;
+    margin-bottom: 1%;
 }
 
 .recherche__texte2{
