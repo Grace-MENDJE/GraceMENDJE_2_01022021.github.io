@@ -1113,7 +1113,7 @@ input::placeholder {
 
 
 .titlepopulaireOne{
-    font-size: 19px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -1560,12 +1560,12 @@ footer{
 .footer__hebergement{
     display: flex;
     flex-direction: column;
-    margin-left: 13%;
+    margin-left: 15%;
 }
 .footer__assistance{
     display: flex;
     flex-direction: column;
-    margin-left: 17%;
+    margin-left: 20.5%;
 }
 
 .footertitle{
