@@ -18,16 +18,16 @@
                     </a>
                 </figure>
             </div>
-            <div class="navigation">
+            <nav class="navigation">
                 <div class="heb1"><a  href="#Myhebergement">Hébergements</a></div>
                 <div class="heb2"><a href="#myactivity"> Activités</a></div>                        
-            </div>  
+            </nav>   
             <div class="login">
                 <a  class="login" href="/"> S'inscrire</a>
             </div>
         </header>
 
-        <div class="recherche">
+        <section class="recherche">
             <div class="recherche__texte">
                 <p class="recherche__texte1">Trouvez votre hébergement pour des vacances de rêve</p>
                 <p class="recherche__texte2"> plein centre ville ou en plein nature</p>
@@ -40,9 +40,9 @@
             
             </div>
     
-        </div>
+        </section>
 
-        <div class="filtres">           
+        <section class="filtres">           
 
             <div class="mainfiltres">
                 <p class="filtrestitle">Filtres</p>
@@ -98,10 +98,10 @@
                    
             </div>           
 
-        </div>
+        </section>
 
         <main>
-            <div class="firstgroupcards">
+            <section class="firstgroupcards">
 
                 <article id="Myhebergement" class="hebergement">
     
@@ -315,102 +315,107 @@
             
                 </aside>           
                 
-            </div>
+            </section>
+
+
+            <section>
+                <article id="myactivity" class="activite">
+                    <h1 class="titleactivite">Activités à Marseille</h1>
+                    <div class="cardsactivite">
+                        <div class="cardsactiviteAll cardsactivite__vieuxport">
+                            <a href="/">
+                                <figure>
+                                    <img class="activite__image PremierImageActivity" 
+                                    src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" 
+                                    alt="">
+                                </figure>
+                                <div class="activite__content">
+                                    <h3>vieux Port</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cardsactivite__twoo">
+                            <div class="cardsactiviteAll cardsactivite__fort">
+                                <a href="/">
+                                    <figure class="fort">
+                                        <img class="activite__image DeuxiemeImageActivite" 
+                                        src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" 
+                                        alt="">
+                                    </figure>
+                                    <div class="activite__content">
+                                        <h3>Fort de Pomègues</h3>
+                                    </div>
+                                </a>
+                            </div>
         
-            <article id="myactivity" class="activite">
-                <h1 class="titleactivite">Activités à Marseille</h1>
-                <div class="cardsactivite">
-                    <div class="cardsactiviteAll cardsactivite__vieuxport">
-                        <a href="/">
-                            <figure>
-                                <img class="activite__image PremierImageActivity" 
-                                src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" 
-                                alt="">
-                            </figure>
-                            <div class="activite__content">
-                                <h3>vieux Port</h3>
+                            <div class="cardsactiviteAll cardsactivite__iles">
+                                <a href="/">
+                                    <figure>
+                                        <img class="activite__image TroisiemeImageActivite" 
+                                        src="images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" 
+                                        alt="">
+                                    </figure>
+                                    <div class="activite__content">
+                                        <h3>Îles du frioul</h3>
+                                    </div>
+                                </a>
                             </div>
-                        </a>
-                    </div>
-                    <div class="cardsactivite__twoo">
-                        <div class="cardsactiviteAll cardsactivite__fort">
-                            <a href="/">
-                                <figure class="fort">
-                                    <img class="activite__image DeuxiemeImageActivite" 
-                                    src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" 
-                                    alt="">
-                                </figure>
-                                <div class="activite__content">
-                                    <h3>Fort de Pomègues</h3>
-                                </div>
-                            </a>
                         </div>
-    
-                        <div class="cardsactiviteAll cardsactivite__iles">
+                        <div class="cardsactiviteAll cardsactivite__park">
                             <a href="/">
                                 <figure>
-                                    <img class="activite__image TroisiemeImageActivite" 
-                                    src="images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" 
+                                    <img class="activite__image QuatriemeImageActivite" 
+                                    src="images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" 
                                     alt="">
                                 </figure>
                                 <div class="activite__content">
-                                    <h3>Îles du frioul</h3>
+                                    <h3>Parc national des calanques</h3>
                                 </div>
                             </a>
                         </div>
-                    </div>
-                    <div class="cardsactiviteAll cardsactivite__park">
-                        <a href="/">
-                            <figure>
-                                <img class="activite__image QuatriemeImageActivite" 
-                                src="images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" 
-                                alt="">
-                            </figure>
-                            <div class="activite__content">
-                                <h3>Parc national des calanques</h3>
+        
+                        <div class="cardsactivite__four">
+                            <div class="cardsactiviteAll notredame">
+                                <a href="/">
+                                    <figure>
+                                        <img class="activite__image CinquiemeImageActivite" 
+                                        src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" 
+                                        alt="">
+                                    </figure>
+                                    <div class="activite__content">
+                                        <h3>Notre-Dame-de-la-Garde</h3>
+                                    </div>  
+                                </a>                 
                             </div>
-                        </a>
-                    </div>
-    
-                    <div class="cardsactivite__four">
-                        <div class="cardsactiviteAll notredame">
-                            <a href="/">
-                                <figure>
-                                    <img class="activite__image CinquiemeImageActivite" 
-                                    src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" 
-                                    alt="">
-                                </figure>
-                                <div class="activite__content">
-                                    <h3>Notre-Dame-de-la-Garde</h3>
-                                </div>  
-                            </a>                 
+        
+                            <div class="cardsactiviteAll cardsactivite__longchamp">
+                                <a href="/">
+                                    <figure>
+                                        <img class="activite__image SixiemeImageActivite" 
+                                        src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" 
+                                        alt="">
+                                    </figure>
+                                    <div class="activite__content">
+                                        <h3>Parc Longchamp</h3>
+                                    </div>
+                                </a>
+                            </div>
+        
                         </div>
-    
-                        <div class="cardsactiviteAll cardsactivite__longchamp">
-                            <a href="/">
-                                <figure>
-                                    <img class="activite__image SixiemeImageActivite" 
-                                    src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" 
-                                    alt="">
-                                </figure>
-                                <div class="activite__content">
-                                    <h3>Parc Longchamp</h3>
-                                </div>
-                            </a>
-                        </div>
-    
+        
                     </div>
-    
-                </div>
-    
-    
-            </article>
+        
+        
+                </article>
+            </section>
+        
+            
         </main>
 
 
 
         <footer>
-            <div class="footer__apropos">
+            <section class="footer__apropos">
                 <h3 class="footertitle lien__footertitle">A propos</h3>
                 <ul>
                     <li>
@@ -429,8 +434,9 @@
                         </a>
                     </li>
                 </ul>
-            </div>
-            <div class="footer__hebergement">
+            </section>
+
+            <section class="footer__hebergement">
                 <h3 class="footertitle lien__footertitle">Nos hébergements</h3>
                 <ul>
                     <li>
@@ -444,8 +450,9 @@
                         </a>
                     </li>
                 </ul>
-            </div>
-            <div class="footer__assistance">
+            </section>
+
+            <section class="footer__assistance">
                 <h3 class="footertitle lien__footertitle">Assistance</h3>
                 <ul>
                     <li>
@@ -459,11 +466,14 @@
                         </a>
                     </li>
                 </ul>
-            </div>
+            </section>
+
         </footer>
 
 
     
     </div>
+
 </body>
+
 </html>
