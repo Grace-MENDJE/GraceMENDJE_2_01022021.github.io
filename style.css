@@ -890,7 +890,7 @@ input::placeholder {
 
 .images__hebergement{
     width: 95%;
-    height:6rem;
+    height:7rem;
     border-top-left-radius: 5%;    
     border-top-right-radius: 5%; 
     object-fit: cover;
@@ -1132,7 +1132,7 @@ input::placeholder {
 }
 
 .popularcardImage{
-    width: 40%;
+    width: 45%;
 }
 
 .populairecards{
@@ -1342,7 +1342,7 @@ input::placeholder {
 
 .PremierImageActivity{
     width: 100%;
-    height:375px;
+    height:386px;
     object-fit: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -1362,11 +1362,11 @@ input::placeholder {
     flex-direction: column;
     box-shadow: 1px 1px 1px 1px #F2F2F2;
     border-radius: 20px;
-    margin-bottom: 10%;
+    margin-bottom: 19%;
 }
 .DeuxiemeImageActivite{
     width: 100%;
-    height: 170px;
+    height: 140px;
     object-fit: cover;    
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -1383,7 +1383,7 @@ input::placeholder {
 
 .TroisiemeImageActivite{
     width: 100%;
-    height: 120px;
+    height: 128px;
     object-fit: cover; 
     object-position: top;   
     border-top-left-radius: 20px;
@@ -1397,8 +1397,9 @@ input::placeholder {
 }
 .QuatriemeImageActivite{
     width: 100%;
-    height: 375px;
+    height: 386px;
     object-fit: cover;
+    object-position: revert;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     
@@ -1408,13 +1409,14 @@ input::placeholder {
     box-shadow: 1px 1px 1px 1px #F2F2F2;
     border-radius: 20px;
     padding-bottom:5%;
-    margin-bottom: 8%;
+    margin-bottom: 12%;
 }
 
 .CinquiemeImageActivite{
     width: 100%;
-    height: 140px;
+    height: 156px;
     object-fit: cover;
+    object-position: top;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -1431,7 +1433,7 @@ input::placeholder {
 
 .SixiemeImageActivite{
     width: 100%;
-    height: 140px;
+    height: 120px;
     object-fit: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
